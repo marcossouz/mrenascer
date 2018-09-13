@@ -1,0 +1,29 @@
+.navbar {
+	background-color: #DCDCDC;
+}
+
+#logo {
+	width: 200px;
+	height: 80px;
+	margin-right: 70px;
+}
+
+#cruz {
+	width: 80px;
+}
+
+.container {
+	height: 800px;
+}
+
+#arte1 {
+	margin-top: 20px;
+	background-image: url(../img/congresso082018.jpeg);
+	
+}
+
+
+#tit, #subtit{
+	text-shadow: 0.04em 0.05em 0.01em black; 
+}
+
