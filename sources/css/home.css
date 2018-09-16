@@ -1,11 +1,14 @@
 .navbar {
-	background-color: #DCDCDC;
+	background-color: #DCDCF0;
 }
 
 #logo {
-	width: 200px;
-	height: 80px;
-	margin-right: 70px;
+	position: fixed;
+	width: 180px;
+	height: 70px;
+	margin-right: 20px;
+	right: 0;
+	bottom: 40px;
 }
 
 #cruz {
@@ -16,9 +19,7 @@
 	height: 800px;
 }
 
-#arte1 {
-	margin-top: 20px;
-	background-image: url(../img/congresso082018.jpeg);
+.carousel {
 	
 }
 
@@ -27,3 +28,12 @@
 	text-shadow: 0.04em 0.05em 0.01em black; 
 }
 
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #5882FA;
+	color: white;
+	text-align: center;
+}
