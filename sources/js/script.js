@@ -1,7 +1,5 @@
 window.onload = function (){
-		setInterval(next(),3000)
-		setInterval(next(),3000)
-
+	setInterval("next()", 3000);
 }
 
 function navt(){
