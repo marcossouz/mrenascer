@@ -37,3 +37,9 @@
 	color: white;
 	text-align: center;
 }
+
+.carousel-inner {
+	box-shadow: 3px 3px 3px #333;
+   -webkit-box-shadow: 3px 3px 3px #333;
+   -moz-box-shadow: 3px 3px 3px #333;
+}
