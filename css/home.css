@@ -1,0 +1,190 @@
+body {
+	background-size: auto;
+	background-repeat: repeat-y;
+	background: rgba(51, 51, 51, 0.281);
+}
+
+
+
+.navbar {
+	padding-left: 100px;
+	background-color: rgba(25, 80, 97, 0.849);
+}
+
+#navbarNav a{
+	color: white;
+}
+
+#logorenascer {
+	position: fixed;
+	width: 20%;
+	margin-right: 2%;
+	right: 0;
+	bottom: 3%;
+}
+
+#logoigreja {
+	position: fixed;
+	width: 25%;
+	margin-left: 2%;
+	left: 0;
+	bottom: 3%;
+}
+
+.logoinstagram {
+	position: fixed;
+	width: 4.5%;
+	margin-right: 23%;
+	right: 0;
+	bottom: 5%;
+}
+
+#cruz {
+	width: 80px;
+}
+
+.container-fluid {
+	margin-top: 10px;
+	margin-bottom: 200px;
+}
+
+
+#tit, #subtit{
+	text-shadow: 0.04em 0.05em 0.01em black; 
+}
+
+.carousel-inner {
+	box-shadow: 3px 3px 3px #333;
+   -webkit-box-shadow: 3px 3px 3px #333;
+   -moz-box-shadow: 3px 3px 3px #333;
+}
+
+#agenda_eventos{
+	margin-top: 30px;
+	width: 20%;
+}
+
+.l-section {
+	margin: 5px;
+	height: 150px;
+	background-color: rgba(55, 99, 112, 0.356);
+}
+
+#table_agenda {
+	float: left;
+	margin-bottom: 2%;
+	margin-top: 1.5%;
+	width: 50%;
+}
+
+#table_agenda, tr, td{
+   padding: 2px;
+}
+
+#table_agenda .data, #table_agenda .detalhe {
+	background-color: #7B68EE;
+}
+
+#table_agenda .plus{
+   width: 13%;
+   background-color: #7B68EE;
+}
+
+#txt-agenda1 {
+	color: white;
+}
+
+#txt-agenda2{
+	color:aqua;
+}
+
+#txt-agenda3{
+	margin-left: 10%;
+	color: aliceblue;
+}
+#txt-agenda4{
+	margin-left: 10%;
+	color: yellowgreen;
+}
+
+#l1 a:hover{
+	color: #FFA07A;
+	font-size: 110%;
+}
+#l2 a:hover{
+	color: #FFA07A;
+	font-size: 110%;
+}
+#l3 a:hover{
+	color: #FFA07A;
+	font-size: 110%;
+}
+#l4 a:hover{
+	color: #FFA07A;
+	font-size: 110%;
+}
+#l5 a:hover{
+	color: #FFA07A;
+	font-size: 110%;
+}
+#l6 a:hover{
+	color: #FFA07A;
+	font-size: 110%;
+}
+
+/*Agenda*/
+.animated-modal {
+    max-width: 550px;
+    border-radius: 4px;
+    overflow: hidden;
+  
+    transform: translateY(-50px);
+    transition: all .7s;
+}
+
+.animated-modal h2,
+.animated-modal p {
+  transform: translateY(-50px);
+  opacity: 0;
+  
+  transition-property: transform, opacity;
+  transition-duration: .4s;
+}
+
+.fancybox-slide--current .animated-modal,
+.fancybox-slide--current .animated-modal h2,
+.fancybox-slide--current .animated-modal p {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Reveal content with different delays */
+.fancybox-slide--current .animated-modal h2 {
+  transition-delay: .1s;
+}
+
+.fancybox-slide--current .animated-modal p {
+  transition-delay: .3s;
+}
+
+/*fim agenda*/
+
+/* Grid photos */
+
+.grid-photos {
+	width: 100%;
+}
+.col {
+	padding: 0;
+	background-color: white;
+}
+
+/* fim grid */
+
+.logo_wp {
+	width: 18px;
+}
+
+.icone_contato {
+	width: 50%;
+}
